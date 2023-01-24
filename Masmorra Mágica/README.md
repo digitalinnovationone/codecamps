@@ -12,7 +12,7 @@ Você é um(a) jovem que, inspirada(o) pelo espírito aventureiro e pelas histó
     
     Código: 
     
-    ```
+    ```jsx
     let equipment = gets()
     
     print(equipment);
