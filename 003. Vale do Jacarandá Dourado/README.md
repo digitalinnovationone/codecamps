@@ -1,18 +1,25 @@
 ## O Vale do Jacarandá Dourado
 
-Você é um ativista a favor da natureza e se juntou com um grupo para resolver problemas que a grande empresa Oil Corp está causando no Vale do Jacarandá Dourado, um lugar mágico com uma fauna e uma flora excepcionais e importantes para a regulação e manutenção da vida na região.
+Imagine um mundo onde a grande empresa *Oil Corp* está causando problemas no **Vale do Jacarandá Dourado**, um lugar mágico com fauna e flora excepcionais, que vêm sendo exploradas por essa corporação.
+
+Nesse contexto, você é um(a) entusiasta de tecnologia e meio ambiente que acredita em soluções disruptivas, desde que sejam sustentáveis. Sua paixão te levou à liderança de um grupo de pessoas e *CleanTechs* na região do **Vale do Jacarandá Dourado** engajadas na luta contra a *Oil Corp*. Cada membro desse grupo é chamado de *CleanCoder* (em homenagem à *Uncle Bob*, autor de livros aclamados pela comunidade de desenvolvimento de software).
+
+Bora superar os desafios impostos nesta jornada e codar um final feliz 😎
 
 ### Parte 1 - Chegando no Acampamento
 
-- **String**
+- Hard Skill: **`Strings`**
+- Soft Skill: **`Comunicação`**
 
-Em um primeiro momento, é necessário imprimir um cartão com o nome de todos os ativistas para que vocês se reconheçam, logo que é a primeira vez que estão se vendo.
+Buscando planejar as ações para conter a *Oil Corp*, um acampamento foi criado e muitos *CleanCoders* (inclusive novos adeptos da causa) estão chegando. Com isso, para faciliar a comunicação e interação, precisamos imprimir cartões de identificação para todas as pessoas.
 
-Crie um código que, com duas entradas Nome, Sobrenome e ID, print no console concatenando essas três variáveis.
+Crie um código que com três entradas (NOME, SOBRENOME e ID) que imprima essas informações no seguinte padrão: "Nome: `NOME` `SOBRENOME` ID: `ID`"
 
-Venilton, uma pessoa já experiente, te diz que é possível utilizar a interpolação de strings, uma coisa bem útil para colocar variáveis na String durante o print. Para utilizar basta fazer assim:
+Venilton, um *CleanCoder* experiente, compartilhou uma dica bem útil. Ele disse que é possível utilizar o conceito de **interpolação de strings** para facilitar a impressão de textos concatenados à variáveis. Para utilizar basta fazer assim:
 
-`Aqui você coloca a string normalmente e quando quiser usar uma variável, use ${variavel}`
+```jsx
+print(`Coloque sua string normalmente e quando quiser usar uma variável, use ${variavel}`);
+```
 
 Código:
 
@@ -21,12 +28,12 @@ let nome = gets();
 let sobrenome = gets();
 let id = parseInt(gets());
 
-print(`Nome: ${nome} ${sobrenome} ID: ${id}`)
+print(`Nome: ${nome} ${sobrenome} ID: ${id}`);
 ```
 
-- **Lógica com If/else**
+- Hard Skill: **`Estruturas de Decisão`**
 
-Agora, precisamos separar a equipe em diversos grupos. Os IDs pares devem ir para o acampamento da direita e os ímpares devem ir para os da esquerda. Para isso crie um código que verifique o ID do ativista e indique para onde ele deve ir.
+Agora precisamos separar os *CleanCoders* em dois grupos, isso vai facilitar a execução de ações estratégicas. Para isso, foi definido que os IDs pares devem ir para as barracas à direita da estrada que corta o acampamento e os ímpares para a esquerda. Aproveite essa oportunidade para criar um código que verifique o ID do *CleanCoder* e indique para onde ele deve ir: Direita ou Esquerda.
 
 Código:
 
@@ -40,11 +47,11 @@ if (id % 2 === 0) {
 }
 ```
 
-- **Lógica com Métodos Math**
+- Hard Skill: **`Objetos e Métodos`**
 
-Nessa manhã, após todos estarem descansados e alimentados, vocês iniciarão a plantação de jacarandás. Porém, é necessário plantar a uma certa distância um pé do outro para que nenhuma planta roube o nutriente da outra fazendo com que algumas não se desenvolvam. É necessário que cada pé esteja a exatos 10 metros de distancia um do outro, assim conseguiremos plantar todas as mudas e evitar que algumas não se desenvolvam.
+Pela manhã, com todos descansados, sua primeira missão será aumentar a plantação de jacarandás, árvore fundamental para a magia do vale. Para isso, é necessário plantá-los a uma certa distância um pé do outro para que nenhuma muda roube o nutriente da outra, fazendo com que algumas não se desenvolvam. Nesse sentido, é necessário que cada pé esteja a exatos 10 metros de distancia um do outro, assim conseguiremos plantar todas as mudas e evitar que algumas não se desenvolvam.
 
-Crie um código que, com as entradas de distancias dos buracos avaliadas pelo drone, verifique se o espaço entre um buraco e outro é igual a 10 metros. Se for, print no console “Plantar!”. Se não for, print no console a distância que o buraco deve retroceder ou avançar para chegar ao número ideal. 
+Crie um código que, com as entradas de distancias dos buracos avaliadas pelo drone, verifique se o espaço entre um buraco e outro é igual a 10 metros. Se for, imprima no console "Plantar!". Se não for, imprima no console a distância que o buraco deve retroceder ou avançar para chegar ao número ideal. 
 
 Código:
 
