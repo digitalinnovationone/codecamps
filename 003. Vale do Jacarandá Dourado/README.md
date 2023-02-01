@@ -6,6 +6,17 @@ Nesse contexto, você é um(a) entusiasta de tecnologia e meio ambiente que acre
 
 Bora superar os desafios impostos nesta jornada e codar um final feliz 😎
 
+## Módulo 0 - Prepare-se Para a Jornada
+
+Nesse módulo inicial teremos:
+
+- Curso padrão - Conheça as Oportunidades da DIO
+- Curso padrão (novo) - Por Dentro dos Code Camps que vai possuir:
+    1. Vídeo do Caio
+    2. Vídeo do Venilton explicando o que é um desafio de código
+    3. Aula textual com sugestões de conteúdos (para pessoas que estão começando do zero)
+- Aula Inaugural
+
 ## Módulo 1 - Chegando no Acampamento
 
 - Soft Skill: **`Comunicação`**
@@ -364,5 +375,10 @@ for (i = offset; i < limit; i++) {
     }
 }
 ```
+### Curso de finalização
 
-`TODO: Cria um vídeo final com o fechamento da história ;)`
+- Vídeo final do Caio
+
+### Feedback
+
+- Onde as pessoas poderão acessar o forms para avaliação
