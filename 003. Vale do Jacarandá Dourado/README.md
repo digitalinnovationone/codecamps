@@ -208,8 +208,8 @@ Após vocês promoverem diversas atividades a favor da natureza, a liderança e 
 Via de regra, as moléculas que possuem até 6 caracteres passam pelo filtro Normal, as que possuem até 10 caracteres passam pelo filtro Específico e as que possuem mais que 10 caracteres passam pelo filtro Duplo Especifico. Essas moléculas estão misturadas nos resíduos, se houver ao menos uma que tenha o número específico de caracteres esse resíduo já deve passar pelo filtro correto.
 
 Crie um código que implemente essas regras e imprima o filtro adequado para cada molécula:
-- `>= 6` -  Imprimir "Filtro Normal";
-- `>= 10` -  Imprimir "Filtro Específico";
+- `<= 6` -  Imprimir "Filtro Normal";
+- `<= 10` -  Imprimir "Filtro Específico";
 - `> 10` -  Imprimir "Filtro DuploEspecífico".
 
 Código:
