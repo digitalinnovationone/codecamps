@@ -15,6 +15,10 @@ Nesse módulo inicial teremos:
     1. Vídeo do Caio
     2. Vídeo do Venilton explicando o que é um desafio de código
     3. Aula textual com sugestões de conteúdos (para pessoas que estão começando do zero)
+- Curso padrão - "Bem-vindo ao Vale do Jacarandá Dourado":
+    1. Vídeo genérico de boas vindas e falando para a galera ler e prestar bastante atenção na história base e nas dicas de estudo
+    2. Aula textual - Conhecendo a História (Aqui vem a explicação da situação problema central e de cada módulo)
+    3. Aula textual - Dicas de Estudo (Aqui vem pautado o que o dev precisa saber para conseguir realizar os desafios e um conjunto de cursos da plataforma + documentação oficial para que ele possa ter como base se sentir dificuldades)
 - Aula Inaugural
 
 ## Módulo 1 - Chegando no Acampamento
