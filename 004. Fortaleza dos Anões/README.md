@@ -1,3 +1,4 @@
+Fortaleza dos Anões
 Enquanto você caminha, ao longe vê a Grande Montanha, um colosso rochoso que se levanta até a altura das nuvens. Essa Montanha é o lar dos Anões nomeada de Fortaleza dos Anões, que a cada dia está sendo mais escavada em busca de pedras e materiais preciosos. Porém, para ser aceito, você precisa se provar digno de que será útil para todos e não somente um peso para o grupo.
 
 Nessa colônia existem diversas profissões e coisas para se fazer. Uma das coisas mais importantes é a produção de cerveja e cogumelos, a fonte de toda energia para escavar dos anões. A segunda coisa mais importante é possuir habilidades com uma picareta e músculos para passar semanas escavando.
