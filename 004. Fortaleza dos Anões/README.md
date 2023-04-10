@@ -1,190 +1,140 @@
-## A Fortaleza dos Anões
-
-Durante suas aventuras você chegou em uma grande colônia de anões. Uma caverna gigantesca que a cada dia está sendo mais escavada em busca de pedras e materiais preciosos. Porém, para ser aceito, você precisa se provar digno de que será útil para todos e não somente um peso para o grupo.
+Enquanto você caminha, ao longe vê a Grande Montanha, um colosso rochoso que se levanta até a altura das nuvens. Essa Montanha é o lar dos Anões nomeada de Fortaleza dos Anões, que a cada dia está sendo mais escavada em busca de pedras e materiais preciosos. Porém, para ser aceito, você precisa se provar digno de que será útil para todos e não somente um peso para o grupo.
 
 Nessa colônia existem diversas profissões e coisas para se fazer. Uma das coisas mais importantes é a produção de cerveja e cogumelos, a fonte de toda energia para escavar dos anões. A segunda coisa mais importante é possuir habilidades com uma picareta e músculos para passar semanas escavando.
 
 Uma coisa com que eles não contavam é que você é um mestre da magia da programação. Isso te da habilidades e poderes que nenhum anão jamais presenciou. Ajude-os com suas tarefas diárias e aprenda com eles a arte da escavação. 
 
-### A Entrada da Caverna
+OBS: O termo anão utilizado nessa história não é um sinônimo para pessoas com nanismo mas sim para as criaturas do mundo do RPG os [Dwarfs](https://pt.wikipedia.org/wiki/An%C3%A3o_(RPG)). 
 
-- **If e Lógica**
+---
 
-Ao chegar na entrada da grande Cidade dos Anões você se depara com os guardas apartando uma briga. Um dos guardas te diz que eles são dois irmãos nunca conseguem chegar a um acordo para dividir seus espólios de suas aventuras pela Terra Média. Você propõe para eles a seguinte solução: Aquele que coletou mais tesouros ficaria com 10% de todo o tesouro. Após esse calculo seria realizado a separação do tesouro de acordo com as porcentagens de coleta de cada um individualmente. 
+## Fáceis
 
-Ajude-os, usando seus poderes de código, criando uma máquina capaz de realizar os cálculos de cada uma de suas aventuras para que os irmãos não briguem mais.
+### Busca Linear
 
-Código:
+Caminhando em direção a Fortaleza você chega em uma plantação de cevada e encontra uma criatura magra, alta e tão barbuda quanto um anão. Essa criatura parece muito desesperada e anda de um lado para o outro segurando um bloco imenso de papeis. Ao perguntar qual o problema, a criatura te diz que está perdida, que será punida por seu erro. Ela é responsável por contabilizar quais grãos de cevada já foram colhidos e quais não, porém acabou dormindo muito e não dará tempo dele fazer a contagem. Você se oferece para ajuda-lo com seu problema e ele te explica:
+
+Existem dois montes de papeis: Um para as fileiras e um para os números.
+
+As fileiras são listas de números que representam cada um dos pés da cevada e os números são quais desses pés que devem ser verificados se já foram colhidos ou não. Os grãos que já tiverem sido colhidos não estarão mais na lista.
+
+Crie um algoritmo que verifique se o número está na lista, ou não printando no console se os grãos já foram colhidos ou não.
+
+**Código**
 
 ```cpp
 #include <iostream>
 using namespace std;
 
-double calculoTesouro(double tesouroEncontrado, double tesouros, double porcentagem) {
-    double tesouroTotal = tesouros - (tesouros * porcentagem);
-    return tesouroTotal * (tesouroEncontrado / 10);
+int buscaLinear(int arr[], int n, int x)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        if (arr[i] == x)
+            return i;
+    return -1;
 }
 
-int main() {
-    double irmao1TesourosEncontrados, irmao2TesourosEncontrados, tesouros, porcentagem = 0.1;
-    double irmao1 = 0, irmao2 = 0;
-
-    cin >> irmao1TesourosEncontrados;
-    cin >> irmao2TesourosEncontrados;
-    cin >> tesouros;
-
-    if (irmao1TesourosEncontrados > irmao2TesourosEncontrados) {
-        tesouros *= porcentagem;
-        irmao1 += tesouros + calculoTesouro(irmao1TesourosEncontrados, tesouros, porcentagem);
-        irmao2 += calculoTesouro(irmao2TesourosEncontrados, tesouros, porcentagem);
-    } else {
-        tesouros *= porcentagem;
-        irmao1 += calculoTesouro(irmao1TesourosEncontrados, tesouros, porcentagem);
-        irmao2 += tesouros + calculoTesouro(irmao2TesourosEncontrados, tesouros, porcentagem);
-    }
-
-    cout << irmao1 << endl;
-    cout << irmao2 << endl;
-
+int main()
+{
+    int arr[] = { 2, 3, 4, 10, 40 };
+    int x = 1;
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int resultado = buscaLinear(arr, n, x);
+    (resultado == -1) ? cout << "Grãos ainda não colhidos" : cout << "Grãos já colhidos" << resultado;
     return 0;
 }
 ```
 
-- **String, Number, Lógica**
+### Busca Binária
 
-Adentrando a caverna, quando somente a luz das tochas iluminam o ambiente, você se depara com um grupo de guardas jogando uma espécie de jogo com dados feitos de pedra. Os guardas são barbudos e estão uniformizados e ao te verem eles dizem que estão jogando um jogo que um forasteiro os ensinou. O guarda, que parece o chefe, te mostra as regras do jogo. Ao ler as regras você nota que eles estão jogando errado, logo que eles jogam os dados e tentam se acertar com socos e pontapés.
+Continuando sua caminhada, você encontra um casebre com uma senhora Anão sentada na varanda olhando para uma imensa plantação de abóboras. Chegando mais perto você nota que algumas delas são douradas e brilham majestosamente. Ela te diz que hoje haverá uma grande festa no salão Nobre da Fortaleza e que as abóboras são utilizadas para fazer a melhor cerveja do continente e que as abóboras douradas são exclusivamente da realeza.
 
-As regras são as seguintes:
+Ela te diz que está bem cansada e que seu grande sonho era guerrear contra os Elfos nos campos da Luz Brilhante e que se você fizer o serviço dela, enquanto ela arruma seu equipamento de batalha, ela te dará o convite para você entrar na grandiosa festa.
 
-Um dado preto e um dado cinza. 
-Se o dado preto for jogado com a mão esquerda e cair um número par, ele ganha 2 pontos a mais. Se for jogado com a mão direita e cair um número ímpar, ele ganha 3 pontos a mais.
+O trabalho da senhora é verificar onde estão as abóboras douradas. Ela possui listas com números de abóboras que representam cada fileira da plantação. O número 10 SEMPRE representa as abóboras douradas.
 
-Se o dado cinza for jogado com a mão esquerda e cair um número par, ele ganha 3 pontos a mais.
-Se for jogado com a mão direita e cair um número ímpar, ele ganha 2 pontos a mais.
+Crie um algoritmo que verifique se a abóbora dourada está presente naquela fileira da plantação e em qual index ela está localizada para ser recolhida.
 
-Os dois dados, se forem jogados com uma mão e cair o número contrário a regra, ele se mantém o mesmo valor.
-
-A pessoa que tirar o maior valor, em 2 rodadas, ganha. Se os dois possuírem o mesmo valor, empate.
-
-Crie um código que, seguindo as regras descritas no documento do forasteiro, diga aos Anões quem é o vencedor.
-
-Código:
+**Código**
 
 ```cpp
 #include <iostream>
-#include <string>
-
 using namespace std;
 
-int dwarfDice(string dice, string dwarf, int dwarfNumber) {
-    if (dice == "black") {
-        if (dwarf == "left") {
-            dwarfNumber += 3;
-        } else if (dwarf == "right") {
-            dwarfNumber += 2;
-        }
-    } else if (dice == "gray") {
-        if (dwarf == "left") {
-            dwarfNumber += 2;
-        } else if (dwarf == "right") {
-            dwarfNumber += 3;
-        }
-    }
-    return dwarfNumber;
+int buscaBinaria(int arr[], int left, int right, int x) {
+   while (left <= right) {
+      int mid = left + (right - left) / 2;
+      if (arr[mid] == x)
+         return mid;
+      else if (arr[mid] < x)
+         left = mid + 1;
+      else
+         right = mid - 1;
+   }
+   return -1;
 }
 
 int main() {
-    int dwarfOne = 0;
-    string dwarfOneDice, dwarfOneHand;
-    cin >> dwarfOneDice >> dwarfOneHand;
-    int dwarfOneNumber;
-    cin >> dwarfOneNumber;
-
-    int dwarfTwo = 0;
-    string dwarfTwoDice, dwarfTwoHand;
-    cin >> dwarfTwoDice >> dwarfTwoHand;
-    int dwarfTwoNumber;
-    cin >> dwarfTwoNumber;
-
-    for (int i = 0; i < 2; i++) {
-        dwarfOne += dwarfDice(dwarfOneDice, dwarfOneHand, dwarfOneNumber);
-        dwarfTwo += dwarfDice(dwarfTwoDice, dwarfTwoHand, dwarfTwoNumber);
-    }
-
-    if (dwarfOne == dwarfTwo) {
-        cout << "Empate de Dwarf" << endl;
-    } else if (dwarfOne > dwarfTwo) {
-        cout << "Dwarf One é o melhor" << endl;
-    } else if (dwarfOne < dwarfTwo) {
-        cout << "Dwarf Two é o melhor" << endl;
-    }
-
-    return 0;
+   int arr[] = { 2, 5, 7, 10, 1, 11, 12 };
+   int n = sizeof(arr) / sizeof(arr[0]);
+   int x = 10;
+   int result = buscaBinaria(arr, 0, n - 1, x);
+   if (result == -1)
+      cout << "Abóbora dourada não encontrada";
+   else
+      cout << "Abóbora dourada encontrada na posição " << result;
+   return 0;
 }
 ```
 
-- **Array**
+### Ordenação por Seleção
 
-Caminhando por algumas horas em direção ao coração da Montanha, você chega a uma humilde e aconchegante estalagem conhecida como Estalagem da Bifurcação, onde existem diversos caminhos a serem percorridos a partir dela. Entrando nela é possível ver um anão visivelmente preocupado, bigodudo e vermelho berrando e esperneando. Ao ouvi-lo você descobre que ele está assim porque seu melhor funcionário partiu para uma aventura para caçar o grande Dragão Vermelho e deixou instruções extremamente confusas sobre todo o estoque da estalagem.
+Chegando próximo aos portões você encontra uma multidão diversa. Muitas criaturas bem vestidas, outras cheias de lama e outras com guarda costas mal encarados. Todas elas possuem uma senha na mão e estão reclamando que querem entrar antes uns dos outros. Os guardas Anões da Fortaleza estão correndo de um lado pro outro e todos, sem exceção, estão nervosos e sem saber o que fazer. Você chega até o mais bigodudo de todos, que aparenta ser o líder, e oferece sua ajuda. 
 
-As instruções eram as seguintes:
+Ele te diz que as senhas foram distribuídas para chamar, em ordem, cada uma das criaturas presentes para validar os seus convites um de cada vez. Porém, tudo acabou ficando confuso e virou uma bagunça generalizada.
 
-Itens comprados: [X, Y, Z]
+Ajude os guardas a organizar a lista em ordem crescente de acordo com os números dessas listas.
 
-Itens utilizados: [A, B, C]
-
-Itens estoque: […,…,…]
-
-Utilizando o poder da programação você decidiu ajudar o dono da estalagem em troca de uma noite de descanso. Para isso, crie um programa que subtraia os índices das listas existentes e crie uma nova lista com os novos valores.
-
-Código:
+**Código**
 
 ```cpp
 #include <iostream>
-#include <vector>
-#include <string>
 using namespace std;
 
-int main() {
-    string entrada1, entrada2;
-    getline(cin, entrada1);
-    getline(cin, entrada2);
+void ordenacaoPorSelecao(int arr[], int n)
+{
+    int i, j, min_idx;
+    for (i = 0; i < n-1; i++)
+    {
+        min_idx = i;
+        for (j = i+1; j < n; j++)
+            if (arr[j] < arr[min_idx])
+                min_idx = j;
+        swap(arr[min_idx], arr[i]);
+    }
+}
 
-    vector<string> arr1, arr2;
-    string num;
-    for (char c : entrada1) {
-        if (c == ',') {
-            arr1.push_back(num);
-            num = "";
+void imprimirArray(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+        if (i != n) {
+            cout << arr[i] << " ";
         } else {
-            num += c;
+            cout << arr[i];
         }
-    }
-    arr1.push_back(num);
-    num = "";
-    for (char c : entrada2) {
-        if (c == ',') {
-            arr2.push_back(num);
-            num = "";
-        } else {
-            num += c;
-        }
-    }
-    arr2.push_back(num);
+    cout << endl;
+}
 
-    vector<int> newArr;
-    for (int i = 0; i < arr1.size(); i++) {
-        int produto = stoi(arr1[i]) - stoi(arr2[i]);
-        newArr.push_back(produto);
-    }
-
-    for (int i = 0; i < newArr.size(); i++) {
-        cout << newArr[i];
-        if (i != newArr.size() - 1) {
-            cout << ",";
-        }
-    }
-
+int main()
+{
+    int arr[] = {64, 25, 12, 22, 11, 2, 4, 6, 2, 0, 67, 102};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    ordenacaoPorSelecao(arr, n);
+    cout << "Lista de Convidados Ordenada: \n";
+    imprimirArray(arr, n);
     return 0;
 }
 ```
+
+### Ordenação por Inserção
