@@ -6,5 +6,5 @@ Nesta colônia, existem diversas profissões e atividades. A produção de cerve
 
 Atualmente, eles enfrentam muitos problemas com suas máquinas pesadas, que, apesar de serem codificadas em C/C++, utilizam apenas técnicas de força bruta e algoritmos pouco performáticos. É aí que você pode fazer a diferença, pois você é um mestre na arte da programação! Isso te confere habilidades e poderes que nenhum CodeMiner jamais presenciou. Ajude-os com seus desafios diários e aprenda com eles a arte da escavação, enquanto desvenda os segredos da Fortaleza dos CodeMiners.
 
-## [Módulo I](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20An%C3%B5es/Modulo1.md)
-## [Módulo II](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20An%C3%B5es/Modulo2.md)
+## [Módulo I](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo1.md)
+## [Módulo II](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo2.md)
