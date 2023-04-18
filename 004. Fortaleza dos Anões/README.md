@@ -1,16 +1,33 @@
-Fortaleza dos Anões
+# Fortaleza dos CodeMiners
 
-Enquanto você caminha, ao longe vê a Grande Montanha, um colosso rochoso que se levanta até a altura das nuvens. Essa Montanha é o lar dos Anões nomeada de Fortaleza dos Anões, que a cada dia está sendo mais escavada em busca de pedras e materiais preciosos. Porém, para ser aceito, você precisa se provar digno de que será útil para todos e não somente um peso para o grupo.
+Enquanto você caminha, ao longe, avista a Grande Montanha, um colosso rochoso que se eleva até a altura das nuvens. Essa Montanha é o lar dos CodeMiners, uma comunidade resiliente e habilidosa que habita a Fortaleza dos CodeMiners. A cada dia, eles escavam mais fundo em busca de recursos valiosos, incluindo informações ancestrais sobre a Grande Montanha. Para ser aceito, você precisa provar que será útil para todos e não apenas um peso para o grupo.
 
-Nessa colônia existem diversas profissões e coisas para se fazer. Uma das coisas mais importantes é a produção de cerveja e cogumelos, a fonte de toda energia para escavar dos anões. A segunda coisa mais importante é possuir habilidades com uma picareta e músculos para passar semanas escavando.
+Nesta colônia, existem diversas profissões e atividades. A produção de cerveja e cultivo de cogumelos são essenciais, pois são a fonte de toda energia necessária para escavar. Além disso, é importante possuir destreza com a picareta e alguma habilidade na operação de máquinas pesadas, equipamentos fundamentais para mineração de dados raros sobre Grande Montanha. Esses dados são mais valiosos que qualquer pedra preciosa, pois podem determinar o futuro do lar dos CodeMiners.
 
-Uma coisa com que eles não contavam é que você é um mestre da magia da programação. Isso te da habilidades e poderes que nenhum anão jamais presenciou. Ajude-os com suas tarefas diárias e aprenda com eles a arte da escavação. 
+Atualmente, eles enfrentam muitos problemas com suas máquinas pesadas, que, apesar de serem codificadas em C/C++, utilizam apenas técnicas de força bruta e algoritmos pouco performáticos. É aí que você pode fazer a diferença, pois você é um mestre na arte da programação! Isso te confere habilidades e poderes que nenhum CodeMiner jamais presenciou. Ajude-os com seus desafios diários e aprenda com eles a arte da escavação, enquanto desvenda os segredos da Fortaleza dos CodeMiners.
 
-OBS: O termo anão utilizado nessa história não é um sinônimo para pessoas com nanismo mas sim para as criaturas do mundo do RPG os [Dwarfs](https://pt.wikipedia.org/wiki/An%C3%A3o_(RPG)). 
+## Desafios Básicos
 
----
+### 1. Ajuste das Máquinas
 
-## Fáceis
+#### Descrição
+As máquinas pesadas da Fortaleza dos CodeMiners precisam de ajustes em suas configurações. Proativamente, você sugere uma solução que calcule a média de consumo energético considerando 3 máquinas. Desta forma, será possível analisar e planejar a estratégia de escavação mais eficiente, pois diferentes combinações de máquinas poderiam ser avaliadas por meio do mesmo algoritmo.
+
+#### Entrada
+Três valores inteiros positivos, representando o consumo de energia de cada máquina, separados por espaços.
+
+#### Saída
+A média de consumo das três máquinas, formatada com duas casas decimais.
+
+#### Exemplos
+
+| Entrada | Saída |
+|---|---|
+| 10 20 30 | 20.00 |
+| 15 25 35 | 25.00 |
+| 5 10 20 | 11.67 |
+
+## Desafios Intermediários
 
 ### Busca Linear
 
