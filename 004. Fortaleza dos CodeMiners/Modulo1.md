@@ -22,7 +22,7 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 ## 2. Armazenamento de Dados é Vida!
 
 ### Descrição
-As máquinas de mineração dos CodeMiners precisam ser atualizadas para aumentar sua capacidade de processamento. Atualmente, cada máquina tem uma capacidade em teraflops. Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
+As máquinas de mineração dos CodeMiners precisam ser atualizadas para aumentar sua capacidade de armazenamento de dados. Atualmente, cada máquina tem uma capacidade em teraflops e todas terão um upgrade! Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
 
 ### Entrada
 Dois valores inteiros positivos, representando a capacidade atual total em teraflops e o aumento percentual, separados por espaço.
