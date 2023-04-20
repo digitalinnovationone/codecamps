@@ -1,6 +1,6 @@
 # Módulo I: Afiando Sua Lógica de Programação
 
-## 1. Monitorando a Conta de Energia 😅
+## 1. Monitorando a Conta de Energia
 
 ### Descrição
 As máquinas pesadas da Fortaleza dos CodeMiners precisam de ajustes em seus parâmetros. Proativamente, você sugere uma solução que calcule a média do consumo energético de três máquinas, já que essa é a configuração mais utilizada por eles. Desta forma, será possível analisar e planejar a estratégia de escavação mais eficiente, pois diferentes combinações de máquinas poderão ser avaliadas por meio do mesmo algoritmo.
