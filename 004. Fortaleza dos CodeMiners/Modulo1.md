@@ -34,7 +34,7 @@ O texto invertido.
 
 | **Entrada** | **Saída** |
 |---|---|
-nidaroM	Moradin
-tumahaB	Bahamut
-droK	Kord
-sihtarE	Erathis
+nidaroM | Moradin
+tumahaB | Bahamut
+droK | Kord
+sihtarE | Erathis
