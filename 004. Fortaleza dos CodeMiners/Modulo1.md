@@ -59,7 +59,26 @@ O texto invertido.
 | droK | Kord |
 | sihtarE | Erathis |
 
-## 5. Fermentar é Vider (:
+## 4. Cogumelos Por Todos os Lados
+
+### Descrição
+Com as máquinas trabalhando e as picaretas cansadas, os CodeMiners precisam colher cogumelos para aumentar o seu estoque. Eles colhem 1 cogumelo a cada 3 minutos, calcule quantos cogumelos serão colhidos em um determinado período de tempo.
+
+### Entrada
+Um número inteiro representando a quantidade de minutos disponíveis para a colheita.
+
+### Saída
+Um número inteiro representando a quantidade de cogumelos colhidos.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|---|---|
+| 9 | 3 |
+| 20 | 6 |
+| 12 | 4 |
+
+## 5. Fermentar é Vider
 
 ### Descrição
 Com o estoque de cogumelos nas alturas, os CodeMiners estão produzindo sua famosa cerveja artesanal e agora precisam monitorar sua temperatura constantemente. A temperatura é um fator crítico para garantir a qualidade da cerveja, e um desvio dos valores ideais pode afetar negativamente seu sabor e aroma. Para solucionar esse problema, será criado um programa em C que será embarcado na cervejeira e fornecerá leituras em tempo real da temperatura, permitindo que os CodeMiners monitorem a cerveja durante todo o processo de produção.
