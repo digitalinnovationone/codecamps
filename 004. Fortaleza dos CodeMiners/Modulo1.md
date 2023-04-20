@@ -22,7 +22,7 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 ## 2. Armazenamento de Dados é Vida!
 
 ### Descrição
-As máquinas de mineração dos CodeMiners precisam ser atualizadas para aumentar sua capacidade de armazenamento de dados. Atualmente, cada máquina tem uma capacidade em teraflops e todas terão um upgrade! Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
+Com as máquinas pesadas agrupadas estratégicamente, graças ao seu algoritmo de cálculo energético, agora a mineração está muito mais eficiente! Com isso, os CodeMiners logo terão que aumentar a capacidade de armazenamento de dados em seus discos de Mithril. Atualmente, cada máquina tem uma capacidade em teraflops e todas terão um upgrade! Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
 
 ### Entrada
 Dois valores inteiros positivos, representando a capacidade atual total em teraflops e o aumento percentual, separados por espaço.
@@ -42,7 +42,7 @@ A nova capacidade total em teraflops.
 ## 5. Palavras Têm Poder!
 
 ### Descrição
-Os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em uma conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
+Com o avanço inédito às profundezas da Grande Montanha, os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em uma conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
 
 ### Entrada
 Um texto com uma palavras misteriosa, sem espaços.
