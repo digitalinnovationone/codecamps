@@ -1,17 +1,17 @@
-## Módulo I: Afiando Sua Lógica de Programação
+# Módulo I: Afiando Sua Lógica de Programação
 
-### 1. Ajuste das Máquinas
+## 1. Ajuste das Máquinas
 
-#### Descrição
+### Descrição
 As máquinas pesadas da Fortaleza dos CodeMiners precisam de ajustes em seus parâmetros. Proativamente, você sugere uma solução que calcule a média do consumo energético de três máquinas, já que essa é a configuração mais utilizada por eles. Desta forma, será possível analisar e planejar a estratégia de escavação mais eficiente, pois diferentes combinações de máquinas poderão ser avaliadas por meio do mesmo algoritmo.
 
-#### Entrada
+### Entrada
 Três valores inteiros positivos, representando o consumo de energia de cada máquina, separados por espaços.
 
-#### Saída
+### Saída
 A média de consumo das três máquinas, formatada com duas casas decimais.
 
-#### Exemplos
+### Exemplos
 
 | **Entrada** | **Saída** |
 |---|---|
@@ -21,16 +21,16 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 
 ## 5. Palavras Têm Poder!
 
-#### Descrição
+### Descrição
 Os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em uma conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
 
-#### Entrada
+### Entrada
 Um texto com uma palavras misteriosa, sem espaços.
 
-#### Saída
+### Saída
 O texto invertido.
 
-#### Exemplos
+### Exemplos
 
 | **Entrada** | **Saída** |
 |---|---|
