@@ -22,7 +22,7 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 ## 5. Palavras Têm Poder!
 
 #### Descrição
-Os CodeMiners encontraram um pergaminho antigo com códigos secretos. Eles precisam decifrar o código, que consiste em uma sequência de letras. Escreva um programa em C que inverta a ordem das letras para revelar a mensagem secreta.
+Os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em uma conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
 
 #### Entrada
 Um texto com uma palavras misteriosa, sem espaços.
