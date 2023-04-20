@@ -22,7 +22,7 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 ## 2. Armazenamento de Dados é Vida!
 
 ### Descrição
-Com as máquinas pesadas agrupadas estratégicamente, graças ao seu algoritmo de cálculo energético, agora a mineração está muito mais eficiente! Com isso, os CodeMiners logo terão que aumentar a capacidade de armazenamento de dados em seus discos de Mithril. Atualmente, cada máquina tem uma capacidade em teraflops e todas terão um upgrade! Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
+Com as máquinas pesadas agrupadas estrategicamente, graças ao seu algoritmo de cálculo energético, agora a mineração está muito mais eficiente! Com isso, os CodeMiners logo terão que aumentar a capacidade de armazenamento de dados em seus discos de Mithril. Atualmente, cada máquina tem uma capacidade em teraflops e todas terão um upgrade! Escreva um programa em C que calcule a nova capacidade total de todas as máquinas após um aumento percentual específico.
 
 ### Entrada
 Dois valores inteiros positivos, representando a capacidade atual total em teraflops e o aumento percentual, separados por espaço.
@@ -38,14 +38,13 @@ A nova capacidade total em teraflops.
 | 50 10 | 55 |
 | 200 50 | 300 |
 
-
 ## 3. Palavras Têm Poder!
 
 ### Descrição
-Com o avanço inédito às profundezas da Grande Montanha, os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em uma conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
+Com o avanço inédito às profundezas da Grande Montanha, os CodeMiners encontraram um pergaminho antigo com códigos secretos em um local que exala uma energia divina. Eles precisam decifrar o código, que consiste em um conjunto simples de palavras. Escreva um programa em C que inverta a ordem das letras para revelar as palavras secretas.
 
 ### Entrada
-Um texto com uma palavras misteriosa, sem espaços.
+Um texto com uma palavra misteriosa, sem espaços.
 
 ### Saída
 O texto invertido.
@@ -62,7 +61,7 @@ O texto invertido.
 ## 4. Cogumelos Por Todos os Lados
 
 ### Descrição
-Com as máquinas trabalhando e as picaretas cansadas, os CodeMiners precisam colher cogumelos para aumentar o seu estoque. Eles colhem 1 cogumelo a cada 3 minutos, calcule quantos cogumelos serão colhidos em um determinado período de tempo.
+Com as máquinas trabalhando e as picaretas cansadas, os CodeMiners precisam colher cogumelos para aumentar o seu estoque. Após desvendar os nomes das divindades no desafio anterior, os CodeMiners foram abençoados e a colheita de cogumelos tornou-se mais abundante. Com isso, eles agora conseguem colher 1 cogumelo a cada 3 minutos. Crie um programa em C que preveja quantos cogumelos serão colhidos em um determinado período de tempo.
 
 ### Entrada
 Um número inteiro representando a quantidade de minutos disponíveis para a colheita.
@@ -78,7 +77,7 @@ Um número inteiro representando a quantidade de cogumelos colhidos.
 | 20 | 6 |
 | 12 | 4 |
 
-## 5. Fermentar é Vider
+## 5. Fermentar é Viver
 
 ### Descrição
 Com o estoque de cogumelos nas alturas, os CodeMiners estão produzindo sua famosa cerveja artesanal e agora precisam monitorar sua temperatura constantemente. A temperatura é um fator crítico para garantir a qualidade da cerveja, e um desvio dos valores ideais pode afetar negativamente seu sabor e aroma. Para solucionar esse problema, será criado um programa em C que será embarcado na cervejeira e fornecerá leituras em tempo real da temperatura, permitindo que os CodeMiners monitorem a cerveja durante todo o processo de produção.
