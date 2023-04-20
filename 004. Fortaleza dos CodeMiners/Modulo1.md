@@ -18,3 +18,23 @@ A média de consumo das três máquinas, formatada com duas casas decimais.
 | 10 20 30 | 20.00 |
 | 15 25 35 | 25.00 |
 | 5 10 20 | 11.67 |
+
+## 5. Palavras Têm Poder!
+
+#### Descrição
+Os CodeMiners encontraram um pergaminho antigo com códigos secretos. Eles precisam decifrar o código, que consiste em uma sequência de letras. Escreva um programa em C que inverta a ordem das letras para revelar a mensagem secreta.
+
+#### Entrada
+Um texto com uma palavras misteriosa, sem espaços.
+
+#### Saída
+O texto invertido.
+
+#### Exemplos
+
+| **Entrada** | **Saída** |
+|---|---|
+nidaroM	Moradin
+tumahaB	Bahamut
+droK	Kord
+sihtarE	Erathis
