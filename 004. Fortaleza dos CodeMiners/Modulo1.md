@@ -1,4 +1,4 @@
-## Desafios Básicos
+## Módulo I: Afiando Sua Lógica de Programação
 
 ### 1. Ajuste das Máquinas
 
