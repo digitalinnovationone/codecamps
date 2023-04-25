@@ -8,8 +8,9 @@ Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífic
 Percebendo sua preocupação, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 101 (projetos práticos sobre mineração de dados) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente uma busca binária para verificar se uma determinada estante contém ou não um conteúdo do tipo 101, auxiliando Hella a identificar de forma eficiente materiais complementares para sua apresentação e garantindo sua cadeira de honra no evento.
 
 ### Entrada
-Um número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
-Uma lista com N números inteiros ordenados crescentemente, representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 101 representa o tipo que estamos buscando.
+Primeira linha com um número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
+
+Segunda linha com uma lista com N números inteiros em ordem crescente (graças a Moradin, Hella é muito organizada), representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 101 representa o tipo que estamos buscando.
 
 ### Saída
 Se o conteúdo do tipo 101 for encontrado, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
