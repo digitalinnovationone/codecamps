@@ -5,23 +5,23 @@
 ### Descrição
 Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífica biblioteca repleta de livros, pergaminhos e discos de Mithril, todos meticulosamente organizados. Esta biblioteca é gerida por Hella, uma CodeMiner conhecida por sua sagacidade, paixão e habilidades literárias. Enquanto explora a fortaleza em busca de desafios, você a encontra trabalhando em seu novo livro, "O Senhor dos Dados: O Retorno do Array", que precisa ser finalizado até o fim do dia para ser apresentado na "CodeMiners I/O". Neste evento, jovens talentos serão treinados em mineração de dados no majestoso salão nobre da Fortaleza.
 
-Percebendo sua preocupação, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 101 (projetos práticos sobre mineração de dados) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente uma busca binária para verificar se uma determinada estante contém ou não um conteúdo do tipo 101, auxiliando Hella a identificar de forma eficiente materiais complementares para sua apresentação e garantindo sua cadeira de honra no evento.
+Percebendo sua preocupação, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 7 (projetos práticos sobre mineração de dados) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente uma busca binária para verificar se uma determinada estante contém ou não um conteúdo do tipo 7, auxiliando Hella a identificar de forma eficiente materiais complementares para sua apresentação e garantindo sua cadeira de honra no evento.
 
 ### Entrada
 Primeira linha com um número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
 
-Segunda linha com uma lista com N números inteiros em ordem crescente (graças a Moradin, Hella é muito organizada), representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 101 representa o tipo que estamos buscando.
+Segunda linha com uma lista com N números inteiros em ordem crescente (graças a Moradin, Hella é muito organizada), representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 7 representa o tipo que estamos buscando.
 
 ### Saída
-Se o conteúdo do tipo 101 for encontrado, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
+Se o conteúdo do tipo 7 for encontrado, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
 
 ### Exemplos
 
 | **Entrada** | **Saída** |
 |---|---|
-| 10 <br> 1 2 3 4 5 6 7 8 9 0 | N |
-| 7 <br> 95 96 97 98 99 100 **101** | S |
-| 5 <br> 20 45 76 **101** 210 | S |
+| 10 <br> 1 2 3 4 5 6 **7** 8 9 0 | S |
+| 7 <br> 95 96 97 98 99 100 101 | N |
+| 5 <br> 7 20 45 76 210 | S |
 | 6 <br> 34 57 89 90 98 102 | N |
 
 ### Busca Linear
