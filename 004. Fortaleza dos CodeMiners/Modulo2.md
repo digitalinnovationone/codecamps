@@ -3,25 +3,27 @@
 ## Busca Binária na Biblioteca
 
 ### Descrição
-Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífica biblioteca repleta de livros, pergaminhos e discos de Mithril, todos meticulosamente organizados. Esta biblioteca é gerida por Hella, uma CodeMiner conhecida por sua sagacidade, paixão e habilidades literárias. Enquanto explora a fortaleza em busca de desafios, você a encontra trabalhando em seu novo livro, "O Senhor dos Dados: O Retorno do Array", que precisa ser finalizado até o fim do dia para ser apresentado na "CodeMiners I/O". Neste evento, jovens talentos serão treinados em mineração de dados no majestoso salão nobre da Fortaleza.
+Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífica biblioteca repleta de livros, pergaminhos e discos de Mithril, todos meticulosamente organizados. Esta biblioteca é gerida por Hella, uma CodeMiner conhecida por sua sagacidade, paixão e habilidades literárias. Você a encontra trabalhando em seu novo livro, "O Senhor dos Dados: O Retorno do Array", que precisa ser finalizado até o fim do dia para ser lançado na "CodeMiners I/O". Neste evento, jovens talentos serão treinados em mineração de dados no majestoso salão nobre da Fortaleza.
 
-Percebendo sua preocupação, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 7 (projetos práticos sobre mineração de dados) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente uma busca binária para verificar se uma determinada estante contém ou não um conteúdo do tipo 7, auxiliando Hella a identificar de forma eficiente materiais complementares para sua apresentação e garantindo sua cadeira de honra no evento.
+Percebendo a preocupação da escritora com o tempo, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 7 (projetos práticos sobre a temática do seu novo livro) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente, preferencialmente, uma Busca Binária¹ para verificar se uma determinada estante possui um conteúdo do tipo 7. Com isso, você ajudará Hella a encontrar de forma eficiente as localizações dos materiais complementares para o lançamento do livro, além de garantir sua cadeira de honra no evento.
+
+¹ **_A Busca Binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. Ele divide a lista ao meio e compara o elemento do meio com o valor desejado. Dependendo da comparação, ele descarta metade da lista e repete o processo até encontrar o elemento desejado ou reduzir a lista a zero. Isso ensina a importância da otimização de algoritmos de busca e como a ordenação pode ser útil nesse contexto._**
 
 ### Entrada
-Primeira linha com um número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
+ - 1ª Linha: Número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
+ - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando os tipos de cada conteúdo de uma estante da biblioteca. Como Hella não teve tempo de ordená-los, você deve aplicar um algoritmo de ordenação nesta lista (use o que preferir).
 
-Segunda linha com uma lista com N números inteiros em ordem crescente (graças a Moradin, Hella é muito organizada), representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 7 representa o tipo que estamos buscando.
 
 ### Saída
-Se o conteúdo do tipo 7 for encontrado, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
+ - Se o conteúdo do tipo 7 for encontrado na lista, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
 
 ### Exemplos
 
 | **Entrada** | **Saída** |
 |---|---|
-| 10 <br> 1 2 3 4 5 6 **7** 8 9 0 | S |
+| 10 <br> 10 20 3 4 5 6 **7** 8 9 0 | S |
 | 7 <br> 95 96 97 98 99 100 101 | N |
-| 5 <br> **7** 20 45 76 210 | S |
+| 5 <br> **7** 2 45 6 21 | S |
 | 6 <br> 34 57 89 90 98 102 | N |
 
 ### Busca Linear
