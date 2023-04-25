@@ -21,7 +21,7 @@ Se o conte√∫do do tipo 7 for encontrado, imprima "S" (sem as aspas). Caso contr√
 |---|---|
 | 10 <br> 1 2 3 4 5 6 **7** 8 9 0 | S |
 | 7 <br> 95 96 97 98 99 100 101 | N |
-| 5 <br> 7 20 45 76 210 | S |
+| 5 <br> **7** 20 45 76 210 | S |
 | 6 <br> 34 57 89 90 98 102 | N |
 
 ### Busca Linear
