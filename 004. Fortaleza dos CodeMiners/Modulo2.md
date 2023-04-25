@@ -1,4 +1,27 @@
-## Desafios Intermediários
+# Dificuldade Média: Busca e Ordenação na Fortaleza!
+
+## Busca Binária na Biblioteca
+
+### Descrição
+Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífica biblioteca repleta de livros, pergaminhos e discos de Mithril, todos meticulosamente organizados. Esta biblioteca é gerida por Hella, uma CodeMiner conhecida por sua sagacidade, paixão e habilidades literárias. Enquanto explora a fortaleza em busca de desafios, você a encontra trabalhando em seu novo livro, "O Senhor dos Dados: O Retorno do Array", que precisa ser finalizado até o fim do dia para ser apresentado na "CodeMiners I/O". Neste evento, jovens talentos serão treinados em mineração de dados no majestoso salão nobre da Fortaleza.
+
+Percebendo sua preocupação, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 101 (projetos práticos sobre mineração de dados) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente uma busca binária para verificar se uma determinada estante contém ou não um conteúdo do tipo 101, auxiliando Hella a identificar de forma eficiente materiais complementares para sua apresentação e garantindo sua cadeira de honra no evento.
+
+### Entrada
+Um número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
+Uma lista com N números inteiros ordenados crescentemente, representando os tipos de conteúdo de uma estante da biblioteca, separados por espaço. Lembrando que, o número 101 representa o tipo que estamos buscando.
+
+### Saída
+Se o conteúdo do tipo 101 for encontrado, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|---|---|
+| 10 <br> 1 2 3 4 5 6 7 8 9 0 | N |
+| 7 <br> 95 96 97 98 99 100 **101** | S |
+| 5 <br> 20 45 76 **101** 210 | S |
+| 6 <br> 34 57 89 90 98 102 | N |
 
 ### Busca Linear
 
@@ -33,48 +56,6 @@ int main()
     int resultado = buscaLinear(arr, n, x);
     (resultado == -1) ? cout << "Grãos ainda não colhidos" : cout << "Grãos já colhidos" << resultado;
     return 0;
-}
-```
-
-### Busca Binária
-
-Continuando sua caminhada, você encontra um casebre com uma senhora Anão sentada na varanda olhando para uma imensa plantação de abóboras. Chegando mais perto você nota que algumas delas são douradas e brilham majestosamente. Ela te diz que hoje haverá uma grande festa no salão Nobre da Fortaleza e que as abóboras são utilizadas para fazer a melhor cerveja do continente e que as abóboras douradas são exclusivamente da realeza.
-
-Ela te diz que está bem cansada e que seu grande sonho era guerrear contra os Elfos nos campos da Luz Brilhante e que se você fizer o serviço dela, enquanto ela arruma seu equipamento de batalha, ela te dará o convite para você entrar na grandiosa festa.
-
-O trabalho da senhora é verificar onde estão as abóboras douradas. Ela possui listas com números de abóboras que representam cada fileira da plantação. O número 10 SEMPRE representa as abóboras douradas.
-
-Crie um algoritmo que verifique se a abóbora dourada está presente naquela fileira da plantação e em qual index ela está localizada para ser recolhida.
-
-**Código**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int buscaBinaria(int arr[], int left, int right, int x) {
-   while (left <= right) {
-      int mid = left + (right - left) / 2;
-      if (arr[mid] == x)
-         return mid;
-      else if (arr[mid] < x)
-         left = mid + 1;
-      else
-         right = mid - 1;
-   }
-   return -1;
-}
-
-int main() {
-   int arr[] = { 2, 5, 7, 10, 1, 11, 12 };
-   int n = sizeof(arr) / sizeof(arr[0]);
-   int x = 10;
-   int result = buscaBinaria(arr, 0, n - 1, x);
-   if (result == -1)
-      cout << "Abóbora dourada não encontrada";
-   else
-      cout << "Abóbora dourada encontrada na posição " << result;
-   return 0;
 }
 ```
 
