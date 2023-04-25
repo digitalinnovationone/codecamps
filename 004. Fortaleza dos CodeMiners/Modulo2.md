@@ -13,7 +13,6 @@ Percebendo a preocupação da escritora com o tempo, você se oferece para ajud�
  - 1ª Linha: Número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
  - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando os tipos de cada conteúdo de uma estante da biblioteca. Como Hella não teve tempo de ordená-los, você deve aplicar um algoritmo de ordenação nesta lista (use o que preferir).
 
-
 ### Saída
  - Se o conteúdo do tipo 7 for encontrado na lista, imprima "S" (sem as aspas). Caso contrário, imprima "N" (sem as aspas).
 
