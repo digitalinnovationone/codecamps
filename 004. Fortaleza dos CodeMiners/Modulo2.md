@@ -88,7 +88,7 @@ Na Fortaleza dos CodeMiners, há uma câmara secreta onde são guardadas joias p
 | 7 <br> 10 20 30 40 50 60 7 | 7 10 20 30 40 50 60 |
 | 9 <br> 1000 1 10 100 0 4 4000 400 40 | 0 1 4 10 40 100 400 1000 4000 |
 
-## Busca Binária na Biblioteca
+## Garantindo Sua Vaga na CodeMiners I/O com Busca Binária	
 
 ### Descrição
 Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífica biblioteca repleta de livros, pergaminhos e discos de Mithril, todos meticulosamente organizados. Esta biblioteca é gerida por Hella, uma CodeMiner conhecida por sua sagacidade, paixão e habilidades literárias. Você a encontra trabalhando em seu novo livro, "O Senhor dos Dados: O Retorno do Array", que precisa ser finalizado até o fim do dia para ser lançado na "CodeMiners I/O". Neste evento, jovens talentos serão treinados em mineração de dados no majestoso salão nobre da Fortaleza.
