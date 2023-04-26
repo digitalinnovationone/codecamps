@@ -1,4 +1,4 @@
-# Dificuldade Média: Ordem na Fortaleza!
+# Módulo II: Ordem na Fortaleza!
 
 ## Ordenação de Poções com Bubble Sort
 
