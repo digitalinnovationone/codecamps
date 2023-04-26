@@ -1,4 +1,4 @@
-# Dificuldade Média: Busca e Ordenação na Fortaleza!
+# Dificuldade Média: Ordem na Fortaleza!
 
 ## Ordenação de Poções com Bubble Sort
 
