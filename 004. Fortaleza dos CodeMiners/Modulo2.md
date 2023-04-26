@@ -12,7 +12,7 @@ Na Fortaleza dos CodeMiners, há uma área especializada em alquimia, onde os ap
  - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando a numeração de cada frasco de poção.
 
 ### Saída
- - Imprima a lista de frascos de poção ordenada em ordem crescente, com cada número separado por um espaço.
+ - Imprima a lista de frascos de poção em ORDEM CRESCENTE, com cada número separado por um espaço.
 
 ### Exemplos
 
@@ -34,7 +34,7 @@ Na Fortaleza dos CodeMiners, o processo de mineração de dados, eventualmente, 
  - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando a raridade de cada relíquia.
 
 ### Saída
- - Imprima a lista de relíquias ordenada em ordem crescente, com cada número separado por um espaço.
+ - Imprima a lista de relíquias em ORDEM CRESCENTE, com cada número separado por um espaço.
 
 ### Exemplos
 
@@ -56,7 +56,7 @@ Os guerreiros da Fortaleza dos CodeMiners precisam manter suas armaduras em orde
  - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando o nível de proteção de cada armadura.
 
 ### Saída
- - Imprima a lista de armaduras ordenada em ordem decrescente, com cada número separado por um espaço.
+ - Imprima a lista de armaduras em ORDEM DECRESCENTE, com cada número separado por um espaço.
 
 ### Exemplos
 
