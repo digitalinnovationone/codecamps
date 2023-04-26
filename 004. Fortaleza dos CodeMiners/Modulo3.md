@@ -1,4 +1,4 @@
-# Desafio Final! Programação Orientada a Objetos Mágicos em C++							
+# Módulo III! Programação Orientada a Objetos Mágicos em C++							
 
 ## Batalha Final: Enfrentando o Boss Overfitting
 
