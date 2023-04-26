@@ -8,3 +8,4 @@ Atualmente, eles enfrentam muitos problemas com suas máquinas pesadas, que, ape
 
 ## [Módulo I](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo1.md)
 ## [Módulo II](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo2.md)
+## [Módulo III](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo3.md)
