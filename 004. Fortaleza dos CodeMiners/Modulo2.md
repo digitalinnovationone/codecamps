@@ -1,5 +1,49 @@
 # Dificuldade Média: Busca e Ordenação na Fortaleza!
 
+## Ordenação de Poções com Bubble Sort
+
+### Descrição
+Na Fortaleza dos CodeMiners, há uma área especializada em alquimia, onde os aprendizes criam poções mágicas (extraídas dos óleos essenciais dos cogumelos da Grande Montanha) para aprimorar suas habilidades. As poções são armazenadas em frascos numerados e os aprendizes precisam organizá-las em ordem crescente de acordo com a numeração. Sua missão é criar um algoritmo em C que implemente o _**Bubble Sort**_¹ para ordenar os frascos de poção. Este algoritmo ajudará os aprendizes a manterem a área de alquimia organizada e eficiente.
+
+¹ _**É um dos algoritmos de ordenação mais simples e é fácil de entender. Ele compara pares de elementos adjacentes e troca-os se estiverem fora de ordem, repetindo esse processo até que toda a lista esteja ordenada. Apesar de não ser eficiente, é um bom ponto de partida para o estudo de algoritmos de ordenação.**_ Saiba mais [aqui](https://pt.wikipedia.org/wiki/Bubble_sort).
+
+### Entrada
+ - 1ª Linha: Número inteiro N (1 <= N <= 1000), representando a quantidade de frascos de poção.
+ - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando a numeração de cada frasco de poção.
+
+### Saída
+ - Imprima a lista de frascos de poção ordenada em ordem crescente, com cada número separado por um espaço.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|---|---|
+| 5 <br> 5 3 4 1 2 | 1 2 3 4 5 |
+| 7 <br> 10 20 30 40 50 60 7 | 7 10 20 30 40 50 60 |
+| 9 <br> 1000 1 10 100 0 4 4000 400 40 | 0 1 4 10 40 100 400 1000 4000 |
+
+## Ordenação de Armaduras com Selection Sort
+
+### Descrição
+Os guerreiros da Fortaleza dos CodeMiners precisam manter suas armaduras em ordem, para facilitar a escolha do equipamento certo antes das batalhas. As armaduras são numeradas de acordo com seu nível de proteção, e os guerreiros desejam organizá-las em ordem decrescente. Sua missão é criar um algoritmo em C que implemente o **_Selection Sort_**¹ para ordenar as armaduras. Com esse algoritmo, os guerreiros poderão encontrar a armadura mais adequada rapidamente, o que pode ser crucial em uma situação de combate.
+
+¹ _**Um passo à frente do Bubble Sort, o Insertion Sort é outro algoritmo simples de entender e implementar. Ele funciona construindo uma sublista ordenada, inserindo elementos um a um em suas posições corretas. Apesar de ainda não ser o mais eficiente, é uma evolução natural no aprendizado após o Bubble Sort.**_ Saiba mais [aqui](https://pt.wikipedia.org/wiki/Insertion_sort).
+
+### Entrada
+ - 1ª Linha: Número inteiro N (1 <= N <= 1000), representando a quantidade de armaduras.
+ - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando o nível de proteção de cada armadura.
+
+### Saída
+ - Imprima a lista de armaduras ordenada em ordem decrescente, com cada número separado por um espaço.
+
+### Exemplos
+
+| **Entrada** | **Saída** |
+|---|---|
+| 5 <br> 5 3 4 1 2 | 5 4 3 2 1 |
+| 7 <br> 10 20 30 40 50 60 7 | 60 50 40 30 20 10 7 |
+| 9 <br> 1000 1 10 100 0 4 4000 400 40 | 4000 1000 400 100 40 10 4 1 0 |
+
 ## Busca Binária na Biblioteca
 
 ### Descrição
@@ -7,10 +51,10 @@ Em meio aos corredores da Fortaleza dos CodeMiners, você encontra uma magnífic
 
 Percebendo a preocupação da escritora com o tempo, você se oferece para ajudá-la. Hella, então, propõe um acordo: se você desenvolver uma solução capaz de identificar a presença de conteúdos do tipo 777 (projetos práticos sobre a temática do seu novo livro) nas estantes da biblioteca, ela lhe concederá uma cadeira de honra na "CodeMiners I/O". Sua missão é criar um algoritmo em C que implemente, preferencialmente, uma Busca Binária¹ para verificar se uma determinada estante possui um conteúdo do tipo 777. Com isso, você ajudará Hella a encontrar de forma eficiente as localizações dos materiais complementares para o lançamento do livro, além de garantir sua cadeira de honra no evento.
 
-¹ **_Busca Binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. Ele divide a lista ao meio e compara o elemento do meio com o valor desejado. Dependendo da comparação, ele descarta metade da lista e repete o processo até encontrar o elemento desejado ou reduzir a lista a zero. Isso ensina a importância da otimização de algoritmos de busca e como a ordenação pode ser útil nesse contexto._**
+¹ **_Busca Binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. Ele divide a lista ao meio e compara o elemento do meio com o valor desejado. Dependendo da comparação, ele descarta metade da lista e repete o processo até encontrar o elemento desejado ou reduzir a lista a zero. Isso ensina a importância da otimização de algoritmos de busca e como a ordenação pode ser útil nesse contexto._** Saiba mais [aqui](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria).
 
 ### Entrada
- - 1ª Linha: Número inteiro N (1 <= N <= 100), representando a quantidade de conteúdos na estante da biblioteca.
+ - 1ª Linha: Número inteiro N (1 <= N <= 1000), representando a quantidade de conteúdos na estante da biblioteca.
  - 2ª Linha: Lista com N números inteiros NÃO ORDENADOS e separados por espaços, representando os tipos de cada conteúdo de uma estante da biblioteca. Entretanto, prevendo a necessidade de ordenação dos conteúdos para uma Busca Binária efetiva, Hella já aplicou um de seus algoritmos de ordenação no código base deste desafio.
 
 ### Saída
@@ -24,90 +68,3 @@ Percebendo a preocupação da escritora com o tempo, você se oferece para ajud�
 | 7 <br> 776 772 773 775 774 771 **777** | S |
 | 7 <br> 177 377 677 **777** 277 477 577  | S |
 | 6 <br> 7 57 89 90 98 102 | N |
-
-### Busca Linear
-
-Caminhando em direção a Fortaleza você chega em uma plantação de cevada e encontra uma criatura magra, alta e tão barbuda quanto um anão. Essa criatura parece muito desesperada e anda de um lado para o outro segurando um bloco imenso de papeis. Ao perguntar qual o problema, a criatura te diz que está perdida, que será punida por seu erro. Ela é responsável por contabilizar quais grãos de cevada já foram colhidos e quais não, porém acabou dormindo muito e não dará tempo dele fazer a contagem. Você se oferece para ajuda-lo com seu problema e ele te explica:
-
-Existem dois montes de papeis: Um para as fileiras e um para os números.
-
-As fileiras são listas de números que representam cada um dos pés da cevada e os números são quais desses pés que devem ser verificados se já foram colhidos ou não. Os grãos que já tiverem sido colhidos não estarão mais na lista.
-
-Crie um algoritmo que verifique se o número está na lista, ou não printando no console se os grãos já foram colhidos ou não.
-
-**Código**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int buscaLinear(int arr[], int n, int x)
-{
-    int i;
-    for (i = 0; i < n; i++)
-        if (arr[i] == x)
-            return i;
-    return -1;
-}
-
-int main()
-{
-    int arr[] = { 2, 3, 4, 10, 40 };
-    int x = 1;
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int resultado = buscaLinear(arr, n, x);
-    (resultado == -1) ? cout << "Grãos ainda não colhidos" : cout << "Grãos já colhidos" << resultado;
-    return 0;
-}
-```
-
-### Ordenação por Seleção
-
-Chegando próximo aos portões você encontra uma multidão diversa. Muitas criaturas bem vestidas, outras cheias de lama e outras com guarda costas mal encarados. Todas elas possuem uma senha na mão e estão reclamando que querem entrar antes uns dos outros. Os guardas Anões da Fortaleza estão correndo de um lado pro outro e todos, sem exceção, estão nervosos e sem saber o que fazer. Você chega até o mais bigodudo de todos, que aparenta ser o líder, e oferece sua ajuda. 
-
-Ele te diz que as senhas foram distribuídas para chamar, em ordem, cada uma das criaturas presentes para validar os seus convites um de cada vez. Porém, tudo acabou ficando confuso e virou uma bagunça generalizada.
-
-Ajude os guardas a organizar a lista em ordem crescente de acordo com os números dessas listas.
-
-**Código**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-void ordenacaoPorSelecao(int arr[], int n)
-{
-    int i, j, min_idx;
-    for (i = 0; i < n-1; i++)
-    {
-        min_idx = i;
-        for (j = i+1; j < n; j++)
-            if (arr[j] < arr[min_idx])
-                min_idx = j;
-        swap(arr[min_idx], arr[i]);
-    }
-}
-
-void imprimirArray(int arr[], int n)
-{
-    for (int i = 0; i < n; i++)
-        if (i != n) {
-            cout << arr[i] << " ";
-        } else {
-            cout << arr[i];
-        }
-    cout << endl;
-}
-
-int main()
-{
-    int arr[] = {64, 25, 12, 22, 11, 2, 4, 6, 2, 0, 67, 102};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    ordenacaoPorSelecao(arr, n);
-    cout << "Lista de Convidados Ordenada: \n";
-    imprimirArray(arr, n);
-    return 0;
-}
-```
-
-### Ordenação por Inserção
