@@ -20,10 +20,10 @@ O objetivo é verificar se a lista de equipamentos possui TODOS os itens necess�
 
 | **Entrada** | **Saída** |
 |---|---|
-| 1 2 3 5<br>1 2 3 4 5 6 7 8 9 10 | Vencemos |
-| 1 2 3 5<br>1 3 4 6 8 7 9 10 2 5	 | Vencemos |
-| 1 3 5 7<br>1 2 4 6 8 9 10  | Perdemos |
-| 1 3 5 7<br>6 4 8 1 9 10 2 7 | Perdemos |
+| 1 2 3 5<br>1 2 3 4 5 6 7 8 9 10 | Vencemos! |
+| 1 2 3 5<br>1 3 4 6 8 7 9 10 2 5	 | Vencemos! |
+| 1 3 5 7<br>1 2 4 6 8 9 10  | Perdemos! |
+| 1 3 5 7<br>6 4 8 1 9 10 2 7 | Perdemos! |
 
 ```cpp
 #include <iostream>
