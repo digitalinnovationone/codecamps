@@ -35,7 +35,7 @@ using namespace std;
 
 class FortalezaCodeMiner {
 public:
-    Arsenal(const vector<int>& equipamentos) : equipamentos_(equipamentos) {}
+    FortalezaCodeMiner(const vector<int>& equipamentos) : equipamentos_(equipamentos) {}
 
     bool possui_equipamento(int id_equipamento) {
         //TODO: Implementar um algoritmo de busca que identifique se o equipamento existe ou não no Arsenal.
