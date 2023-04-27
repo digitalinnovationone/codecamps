@@ -8,4 +8,4 @@ Atualmente, eles enfrentam muitos problemas com suas máquinas pesadas, que, ape
 
 ## [Módulo I: Afiando Sua Lógica de Programação](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo1.md)
 ## [Módulo II: Ordem na Fortaleza!](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo2.md)
-## [Módulo III: Programação Orientada a Objetos Mágicos em C++](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo3.md)
+## [Módulo III: Programação Orientada a Objetos Mágicos](https://github.com/digitalinnovationone/codecamps/blob/main/004.%20Fortaleza%20dos%20CodeMiners/Modulo3.md)
